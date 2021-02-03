@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom */
+
+    
+
+.container{margin: 0px auto;
+    max-width: 80%;
+    
+}
+
+.clearfix::before,.clearfix::after{
+content:"";display:table;
+}
+.clearfix::after{
+clear:both;
+}
+
+/*header*/
+.header {
+    padding: 40px 160px; 
+    background-color: rgba(124, 47, 124, 0.822);
+}
+.inline {
+    display: inline-block;
+    font-size: 15px;
+    
+    float: right;
+    margin: 0px 5px;
+}
+h2 {
+    font-size: 25px;
+    color: whitesmoke;
+    float: left;
+}
+a {
+    margin: 0px 20px;
+    color: rgb(54, 185, 54);
+}
+
+
+
+/*main*/
+
+.one {
+    background-color:rgba(124, 47, 124, 0.822);
+    padding: 70px 160px;
+}
+.one1 {
+    display: flex;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+h1 {
+    font-size: 40px;
+    color: whitesmoke;
+    line-height: 55px;
+}
+.par {
+    color: rgb(80, 78, 78);
+    font-size: 17px;
+    line-height: 25px;
+}
+.left {
+    width: 45%;
+    height: auto;
+    border-right: solid 1px grey;
+}
+.right {
+    width:45% ;
+    height: auto;
+}
+.button1 {
+    padding: 15px 10px;
+    height: auto;
+    width: 150px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: green;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.one2 {
+    display: flex;
+    height: 35vh;
+    justify-content: space-evenly;
+}
+.two {
+    background-color:rgba(255, 255, 255, 0.822);
+    padding: 70px 160px;
+    height: auto;
+}
+h3 {
+    font-size: 30px;
+    color: grey;
+    margin: 10px 0px;
+ }
+ .button2 {
+    padding: 15px 10px;
+    height: auto;
+    width: 150px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: rgb(250, 253, 250);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    border: solid 1px black;
+}
+.left1 {
+    width: 45%;
+    height: auto;
+    border-right: solid 1px grey;
+}
+.right1 {  
+    
+    width:45% ;
+    height: auto;
+}
+
+.in {
+    display:flex;
+    margin: 20px 0px;
+}
+.img {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+}
+/*    */
+.three {
+    background-color: grey;
+    padding: 20px 160px;
+}
+
+.one3 {
+        display: flex;
+        flex-direction: row;
+        height: 15vh;
+        justify-content: space-evenly;
+        
+}
+.one4 {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    justify-content: space-evenly;
+    
+}
+.one5 {
+    display: flex;
+    flex-direction: row;
+    
+    height: 15vh;
+    justify-content: space-evenly;
+    
+}
+.first {
+    height: auto;
+    background-color: whitesmoke;
+    margin: 40px 0px;    
+}
+.second {
+    height: auto;
+    background-color: whitesmoke;
+    margin: 40px 0px;
+    
+}
+.third {
+    height: auto;
+    background-color: whitesmoke;
+    margin: 40px 0px;
+}
+.fir {
+    height:auto ;
+    width: auto;
+}
+.lside {
+    width: 60%;
+    height: auto;
+}
+.rside {  
+    margin-top: 80px;
+    width:85% ;
+    height: auto;
+}
+.button3 {
+    padding: 15px 10px;
+    height: auto;
+    width: 120px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: rgb(250, 253, 250);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    border: solid 1px black;
+}
+.one6 {
+    display: flex;
+    flex-direction: row;
+    
+    
+    justify-content:center;
+    
+}
+.button4 {
+    padding: 15px 10px;
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: rgb(250, 253, 250);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    border: solid 1px black;
+}
+/* */
+.one7 {
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+.four {
+    background-color:rgba(255, 255, 255, 0.822);
+    padding: 70px 160px;
+    height: auto;
+}
+.left2 {
+    width: 45%;
+    height: auto;
+    border-right: solid 1px grey;
+}
+.right2 {  
+    
+    width:45% ;
+    height: auto;
+}
+.name {
+    border: 1px solid black;
+    height:40px ;
+    width: 45%;
+    display: inline-block;
+    margin: 15px 0px;
+}
+.last {
+    font-size: 20px;
+    padding: 8px;
+    color: grey;
+}
+.dis {
+    border: 1px solid black;
+    height: 200px;
+    width: 92.5%;
+    margin: 5px 0px;
+}
+.last1 {
+    font-size: 20px;
+    padding: 20px;
+    color: grey;
+}
+
+/*footer*/
+h6 {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+}
+.footer {
+    background-color:  rgba(124, 47, 124, 0.822);
+    padding: 40px 160px; 
+}
+
+.par1 {
+    color: rgb(80, 78, 78);
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 15px;
+}
+
+
