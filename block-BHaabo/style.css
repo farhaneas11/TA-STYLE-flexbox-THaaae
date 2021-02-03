@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom */
+.container {
+    margin: 0px auto;
+    max-width: 80%;
+    padding: 0px 32px;
+}
+
+.clearfix::before,.clearfix::after{
+content:"";display:table;
+}
+.clearfix::after{
+clear:both;
+}
+
+/*header*/
+.header {
+    padding: 40px 160px; 
+    background-color: rgb(21, 12, 63);
+}
+.float { 
+    float: right;
+    display:inline-block;
+}
+h2 {
+    float: left;
+    color: green;
+    font-size: 30px;
+}
+.icons {
+    width: 35px;
+    height: 25px;
+    border-radius:10px ;
+}
+.nav {
+    margin:0px 5px ;
+}
+/*main*/
+
+h1{font-size: 32px;text-align: center;margin: 10px;
+}
+.flex{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-evenly;
+    height: 85vh;
+}
+.img {
+    width: 32%;height: 350px;
+    }
+
+
+.inline {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.art {
+    border: solid 2px gold;
+    padding: 10px;
+    width: 250px;
+    height:auto;
+    border-radius: 5px;
+
+}
+.in {
+    margin-left: 10px;
+}
+.log {
+    
+    padding: 10px;
+    width: 275px;
+    height:auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 20px;
+    align-self: flex-end;
+}
+.right {
+    width: 780px;
+    height: 600px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+h1 {
+    color: black;
+    font-size: 50px;
+}
+.ima {
+    width: 750px;
+    height: 300px;
+}
+
+
+/*footer*/
+.footer {
+    padding: 40px 160px;
+    background-color: rgb(21, 12, 63);
+}
+h5 {
+    float: left;
+    font-size: medium;
+    color: grey;
+}
+.foot{
+float:right
+}
+.small{
+    width: 30px;height: 30px;
+    border-radius: 25px;
+    margin: 0px 5px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    padding: 20px;
+    height: 600px;
+    background-color: rgb(77, 77, 236);
+    border-radius: 20px;
+}
+.inl {
+    align-items: baseline;
+}
+p {
+    margin: 5px 0px;
+}
+.read {
+    padding: 10px;
+    width: 200px;
+    height:auto;
+    background-color:rgb(19, 163, 19);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.par {
+    font-size: 19px;
+}
+.divi {
+    margin: 5px 10px;
+}
+
