@@ -1,8 +1,65 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container header">
+        <h2>AltCampus</h2>
+        <div class="float">
+            <nav>
+                <a href="#" class="nav" target="_blank"><img src="assets/icons/user.svg" class="icons" alt="user"></a>
+                <a href="#" class="nav" target="_blank">Sarah Jone</a>
+                
+                <a href="#" class="nav" target="_blank"><img src="assets/icons/bell.svg" class="icons" alt="bell"></a>          
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section>            
+            <div class="flex">
+                  <div class="left">
+                      <div class="inl">
+                          <div class="inline"><img src="assets/icons/dashboard.svg" alt="dashboard"><p class="in">Dashboard</p> </div>   
+                          <div class="inline art"><img src="assets/icons/article.svg" alt="article"><p  class="in">Articles</p> </div> 
+                          <div class="inline"><img src="assets/icons/analytics.svg" alt="analytics"><p  class="in">Analytics</p> </div> 
+                          <div class="inline"><img src="assets/icons/inbox.svg" alt="inbox"><p  class="in">Inbox</p> </div> 
+                          <div class="inline"><img src="assets/icons/setting.svg" alt="setting"><p  class="in">Settings</p> </div> 
+                      </div>
+                      <div class="log "><a href="#">Logout</a></div>                 
+                  </div>
+                  <article class="right">
+                      <div class="divi">
+                      <img src="assets/01.png"class="ima" alt="picture">
+                      <h1>Why we doing AltCampus?</h1>
+                      <p class="par">Its our perssonel intrests coming together to learn new topics and take part
+                          in something fresh and beaautiful that could teach or make us gain knowledge
+                          and have us free roasm this world to find new things that could intrests us 
+                          a good envionment to join new people and talk with them to undrestand new things in things
+                          world that we havnt known till now.
+                      </p>
+                      <p class="par">its all upto out intrest and more into our selfishness 
+                        and do things our way slow,steady which could lead to knowing the new people and
+                        getover your trauma that you had once.everything colud go right or may go wrong according to the decisions
+                        we make ourselfs.this world is not so pure to believe.always be carefull. </p>
+                        <div class="read "><a href="#">Read More</a></div>
+                    </div>
+                  </article>         
+            </div>
+        </section>
+    </main>
+    <footer class="container footer"> 
+        <h5>AltCampus</h5>       
+            <div class="foot">
+            <a href="https://www.facebook.com/faruk.rkz12/" target="_blank"><img src="Facebook-logo-500x350.png" class="small" alt="FB"></a>
+            <a href="https://twitter.com/farhanEAS" target="_blank"><img src="twitter.jpg" class="small" alt="twitter"></a>
+             
+      
+          </div>
+    </footer>
+    
+</body>
+</html>                        
